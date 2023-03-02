@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="formulario.css">
+  <title>Encuesta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <h2>ENCUESTA</h2>
+    <form>
+      <div class="provincias">
+        <fieldset>
+          <legend>Selecciona las provincias que has visitado</legend>
+          <div class="">
+            <label for="andalucia">Andalucia</label>
+            <input type="checkbox" id="andalucia">
+          </div>
+          <div class="">
+            <label for="aragon">Aragón</label>
+            <input type="checkbox" id="aragon" >
+          </div>
+          <div class="">
+            <label for="asturias">Asturias</label>
+            <input type="checkbox" id="asturias">
+          </div>
+          <div class="">
+            <label for="baleares">Islas Baleares</label>
+            <input type="checkbox" id="baleares">
+          </div>
+          <div class="">
+            <label for="canarias">Canarias</label>
+            <input type="checkbox" id="canarias">
+          </div>
+      </fieldset>
+    </div>
+      <br/>
+
+
+      <fieldset>
+        <legend>¿Resides en alguna de las provincias anteriormente mencionadas? Indica cual</legend>
+            <div class="residencia">
+              <input type="radio" id="si" name="a">
+              <label for="si">Si</label>
+            </div>
+
+            <div class="residencia">
+              <input type="radio" id="no" name="a">
+              <label for="no">No</label>
+            </div>
+            <br/>
+            
+            <div>
+            <label>Lugar de residencia</label>
+          <select>
+            <option value="">&nbsp;</option>
+            <option value="">Andalucía</option>
+            <option value="">Aragón</option>
+            <option value="">Asturias</option>
+            <option value="">Islas Baleares</option>
+            <option value="">Canarias</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <br/>
+      <fieldset>
+        <legend>Escribe tu opinión de la/las provincias que hayas visitados</legend>
+        <textarea></textarea>
+      </fieldset>
+
+      <br/>
+
+      <label>Nombre: </label>
+      <input type="email">
+      <br/><br/>
+      <label>Email: </label>
+      <input type="email">
+      <br/><br/>
+      <input type="button" value="Enviar">
+
+    </form>
+</body>
+</html>
