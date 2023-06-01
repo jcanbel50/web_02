@@ -2,13 +2,13 @@
 <!-- La parte fija del fichero xml correspondiente a un rss -->
 <rss version="2.0">
   <channel>
-    <title>El nombre de nuestro feed RSS</title>
-    <link>Dirección web en la que se encuentre nuestro RSS</link>
-    <description>Contenido que vamos a ofrecer a los usuarios</description>
+    <title>Turismo en Andalucía</title>
+    <link>https://jcanbel50.github.io/web_02/#Andalucia</link>
+    <description>Los sitios más visitados en Andalucía</description>
     <!-- La parte fija opcional -->
     <language>es-ES</language>
     <image>
-      <title>Título de la Imagen</title>
+      <title>RSS</title>
       <url>http://www.mipagina.com/logotipo-del-rss.png</url>
       <link>http://www.mipagina.com</link>
       <width>90</width>
