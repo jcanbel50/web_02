@@ -133,3 +133,9 @@ ol li {
 ol li:hover {
   background-color: #e59191;
 }
+
+.rss {
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
